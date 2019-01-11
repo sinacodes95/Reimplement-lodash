@@ -1,0 +1,19 @@
+{
+  "name": "lowbar",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {},
+  "scripts": {
+    "test": "mocha ./spec/",
+    "lint": "eslint ./",
+    "posttest": "npm run lint",
+    "precommit": "npm test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0",
+    "husky": "^0.13.1",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.8"
+  }
+}
